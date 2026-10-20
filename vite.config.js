@@ -9,6 +9,9 @@ export default defineConfig({
       tailwindcss(),
 
   ],
+  test: {
+    environment: 'jsdom',
+  },
   server: {
     port: 8080
   }
